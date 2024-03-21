@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Piedra Papel Tijera</title>
+
+    </style>
+</head>
+
+<body>
+    <h1>Juego de Piedra Papel Tijera</h1>
+    <label for="nombre">Ingresa tu nombre: </label>
+    <input type="text" id="nombre">
+    <button onclick="iniciarJuego()">Comenzar Juego</button>
+    <div style="display: none;" id="juego">
+    <hr>
+
+        <div>
+            <button id="piedra">Piedra</button>
+            <button id="papel">Papel</button>
+            <button id="tijera">Tijera</button>
+        </div>
+        <div id="puntos">
+            <p>Puntos Humano: <span id="puntosHumano">0</span></p>
+            <p>Puntos Máquina: <span id="puntosMaquina">0</span></p>
+        </div>
+
+        <script src="piedraPapelTijera.js"></script>
+</body>
+
+</html>
